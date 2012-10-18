@@ -1,0 +1,379 @@
+
+\documentclass[journal]{IEEEtran}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\usepackage{dcolumn}
+\usepackage{colortbl}
+
+\begin{document}
+%
+% paper title
+\title{Proyecto con la Oficina de Responsabilidad Social Universitaria - PUJ, Cali.}
+\author{Alejandro~Cardona,~\IEEEmembership{}
+        Luis~Santiago~Osorio,~\IEEEmembership{}
+        Diego~Lozada,~\IEEEmembership{}% <-this % stops a space
+\thanks{}% <-this % stops a space
+\thanks{}}
+
+\markboth{}
+
+\maketitle
+
+
+\IEEEpeerreviewmaketitle
+\section{\textbf{Control de Versiones}}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Vercion &\makebox[6.5cm][c]{2.0}\\
+\hline
+Fecha & 17/10/2012\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{2cm} 
+\end{tabbing}
+
+
+En esta version, se cambia el formato de documento para manejar la herramienta {\LaTeX}, para un mejor uso de el formato de la IEEE, y se generan los nuevos cambios en el proyecto con respecto a las reuniones en el periodo actual.
+
+\section{\textbf{Contexto}}
+La oficina de responsabilidad social es la encargada del manejo de
+proyectos relacionados con Responsabilidad Social de la Pontificia
+Universidad Javeriana Cali. Se encarga de analizar el impacto de los
+proyectos.
+
+\section{\textbf{Introduccion}}
+
+\subsection{Proposito}
+\PARstart{E}{l} siguiente documento especificara las principales caracteristicas del proyecto con la oficina de responsabilidad social, mostrando el contexto, los actores que intervienen, la tecnologia utilizada y los diferentes requerimientos funcionale y no funcionales de la aplicacion.
+
+
+\subsection{Alcance}
+Se obtendr\'a una aplicaci\'on capas de gestionar \'e ingresar,
+los proyectos relacionados con responsabilidad social, y mostrar las estad\'isticas que hagan una buena
+muestra de los datos que se estraer\'an de la base de datos del sistema.
+
+El sistema quedara dise\~nado en Java y podra realizar los siguentes procesos:
+
+\begin{enumerate}
+\item Agregar proyectos
+\item Gestionar:
+\begin{enumerate}
+\item Crear.
+\item Aceptar.
+\item Clasificar.
+\item Modificar.
+\end{enumerate}
+\item Generar estadisticas.
+\item Generar Datos.
+\end{enumerate}
+
+\section{\textbf{Personal Involucrado}}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[5cm][c]{ Diego Alexander Lozada}\\
+\hline
+Rol & Programador\\
+\hline
+Categor\'ia profesional & Ingeniero de Sistemas y \\
+&Computaci\'on\\
+\hline
+Responsabilidades & Codificar y Documentar\\
+&la aplicaci\'on\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[5cm][c]{ Alejandro Cardona}\\
+\hline
+Rol & Programador\\
+\hline
+Categor\'ia profesional & Ingeniero de Sistemas y \\
+&Computaci\'on\\
+\hline
+Responsabilidades & Codificar y Documentar \\
+&la aplicaci\'on\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[5cm][c]{ Luis Santiago Osorio}\\
+\hline
+Rol & Programador\\
+\hline
+Categor\'ia profesional & Ingeniero de Sistemas y \\
+&Computaci\'on\\
+\hline
+Responsabilidades & Codificar y Documentar \\
+&la aplicaci\'on\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[4.5cm][c]{ Juan Carlos Mart\'inez}\\
+\hline
+Rol & Profesor de Ingenier\'ia de spftware\\
+\hline
+Categor\'ia profesional & Ingeniero de Sistemas y \\
+&Computaci\'on\\
+\hline
+Responsabilidades & Controlar los Avances del proyecto\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[7cm][c]{ Claudia Mora}\\
+\hline
+Rol & Cliente\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\begin{tabular}{|>{\columncolor[gray]{0.7}} c |c|}
+\hline
+Nombre &\makebox[7cm][c]{ \'Angela Mar\'ia}\\
+\hline
+Rol & Cliente\\
+\hline
+\end{tabular}
+
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\section{\textbf{Tecnologia}}
+Info Tecnologia
+\section{\textbf{Requerimientos}}
+
+\begin{enumerate}
+\item
+En sistema tendra un logeo, para el ingreso de los usuarios, ya sea externos o por parte de la oficina de responsabilidad social(administradores).\\
+\item
+El sistema, debera permitir el envio de proyectos, por parte de los usuarios y los administradores.\\
+\item
+El sistema deberá hacer una prevalidaci\'on de los proyectos ingresados
+por los usuarios en la p\'agina. En esta pre validaci\'on se tendr\'an en
+cuenta el an\'alisis de los datos ingresados en una encuesta indicada, que se genera a partir de los tres tipos de proyectos:
+\begin{itemize}
+\item
+Proyectos por Facultad o internos a la universidad.
+\item
+Proyectos con Paz y Bien.
+\item
+Proyectos de la compa\~nia jesuita.\\
+\end{itemize}
+\item
+El sistema podra gestionar los proyectos ingresados a el sistema, dando la posibilidad de agregar,eliminar,modificar los proyectos.\\
+\item
+Los proyectos enviados tendrán un archivo adjunto, que sera ingresado en la encuesta respectiva, de no mayor de 2 páginas, en formato PDF o WORD\\
+\item
+Los roles en el proyecto, serán el rol de administrador, quien podrá
+hacer manejo de los proyectos y la aprobación o desaprobación de
+los proyectos enviados por el sistema. También estará el rol de los
+usuarios quienes serán los que puedan enviar los proyectos.\\
+\item
+El sistema permitira la busqueda de proyectos, por categoria, poblacion o un parametro espesificado por el usuario. En esta busqueda dependiendo del usuario logeado se mostrata informacion mas detallada de los proyecto, es decir, si el usuario es un administrador podra visualisar informacion mas detallada de los proyectos, y si el usuario no lo es, visualizara una vercion muy especifica de los datos.\\
+\item
+El sistema podra generar estadisticas, a partir de los datos ya almacenados en el sistema. Dichas estadisticas se calcularan, tomando en cuenta los vs mas significativos para la oficina de responsabilidad social.\\ 
+\item
+El sistema deberá enviar una alerta al administrador, informando de
+un nuevo proyecto enviado por el sistema.
+\end{enumerate}
+
+\section{\textbf{Especificaci\'on de Requerimientos Funcionales}}
+\begin{enumerate}
+
+\item
+Caso de Uso No 1.
+\begin{itemize}
+\item
+Software: Aplicaci\'on Java
+\item
+Version: 1.0
+\item
+Nombre del Caso de uso: Logeo
+\item
+Descripci\'on: El sistema permitira el logeo de los usuarios para dar privilegios de administrador o de usuario normal.
+\item
+Involucrados: Usuario
+\item
+Precondiciones: 
+\begin{itemize}
+\item
+El sistema debe haber iniciado
+\end{itemize}
+\item
+Excepciones: 
+\item
+Funciones Relacionadas:
+\item
+Documentos Relacionados:
+\item
+Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
+\item
+Fecha: 17/10/2012.
+\item
+Acciones: 
+\end{itemize}
+\begin{tabular}{|l|l|}
+\hline
+\makebox[3.75cm][c]{\textbf{Usuario}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
+\hline
+Inicia la aplicacion &\\
+\hline
+& Muestra la ventana de logeo\\
+\hline
+Ingresa los datos&\\
+\hline
+& Verifica\\
+\hline
+& Muestra ventana de usuario\\
+\hline
+\end{tabular}
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\item
+Caso de Uso No 2.
+\begin{itemize}
+\item
+Software: Aplicaci\'on Java.
+\item
+Version: 1.0.
+\item
+Nombre del Caso de uso: Envio de Proyecto.
+\item
+Descripci\'on: El sistema permitira el envio de proyectos al sistema.
+\item
+Involucrados: Usuario.
+\item
+Precondiciones:
+\begin{itemize}
+\item
+El usuario debe haberse logeado.
+\end{itemize}
+\item
+Excepciones: 
+\item
+Funciones Relacionadas: logeo
+\item
+Documentos Relacionados: PDF o WORD adjunto al proyecto.
+\item
+Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
+\item
+Fecha: 17/10/2012
+\item
+Acciones: 
+\end{itemize}
+\begin{tabular}{|l|l|}
+\hline
+\makebox[3.75cm][c]{\textbf{Usuario}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
+\hline
+llena el formulario y &\\
+adjunta el archivo&\\
+\hline
+Envia el proyecto& \\
+\hline
+& Se guarda el proyecto \\
+&en la aplicaci\'on\\
+\hline
+& Envia cponfirmaci\'on de\\
+&envio\\
+\hline
+\end{tabular}
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\item
+Caso de Uso No 3.
+\begin{itemize}
+\item
+Software: Aplicaci\'on Java
+\item
+Version: 1.0
+\item
+Nombre del Caso de uso: 
+\item
+Descripci\'on: El sistema permitira el logeo de los usuarios para dar privilegios de administrador o de usuario normal.
+\item
+Involucrados: Usuario
+\item
+Precondiciones: 
+\begin{itemize}
+\item
+El sistema debe haber iniciado
+\end{itemize}
+\item
+Excepciones: 
+\item
+Funciones Relacionadas:
+\item
+Documentos Relacionados:
+\item
+Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
+\item
+Fecha: 17/10/2012.
+\item
+Acciones: 
+\end{itemize}
+\begin{tabular}{|l|l|}
+\hline
+\makebox[3.75cm][c]{\textbf{Usuario}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
+\hline
+Inicia la aplicacion &\\
+\hline
+& Muestra la ventana de logeo\\
+\hline
+Ingresa los datos&\\
+\hline
+& Verifica\\
+\hline
+& Muestra ventana de usuario\\
+\hline
+\end{tabular}
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+
+\end{enumerate}
+
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to {\LaTeX}}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+\end{thebibliography}
+\end{document}
+
+

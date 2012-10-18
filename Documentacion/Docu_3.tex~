@@ -1,0 +1,27 @@
+
+\documentclass{article}
+
+\title{Proyecto con la Oficina de Responsabilidad Social Universitaria - PUJ, Cali. \\ Documento No.3\\ Procesos de Ingenier\'ia de Software \\ Juan Carlos Mart\'inez \\ } % Title
+
+\author{Alejandro Cardona, Diego Lozada, Luis Osorio} % Author name
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+\begin{tabular}{lr}
+Fecha de elaboraci\'on: 3/10/2012 %Fecha de la fecha del reporte
+\end{tabular}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\section{aqui} %Titulo de el objetivo del documento 
+
+
+\begin{itemize}
+\item item1
+\item item2
+\end{itemize}
+
+
+\end{document}
