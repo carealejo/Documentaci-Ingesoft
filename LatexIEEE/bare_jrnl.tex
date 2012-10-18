@@ -192,13 +192,6 @@ Proyectos de la compa\~nia jesuita.\\
 \item
 El sistema podra gestionar los proyectos ingresados a el sistema, dando la posibilidad de agregar,eliminar,modificar los proyectos.\\
 \item
-Los proyectos enviados tendrán un archivo adjunto, que sera ingresado en la encuesta respectiva, de no mayor de 2 páginas, en formato PDF o WORD\\
-\item
-Los roles en el proyecto, serán el rol de administrador, quien podrá
-hacer manejo de los proyectos y la aprobación o desaprobación de
-los proyectos enviados por el sistema. También estará el rol de los
-usuarios quienes serán los que puedan enviar los proyectos.\\
-\item
 El sistema permitira la busqueda de proyectos, por categoria, poblacion o un parametro espesificado por el usuario. En esta busqueda dependiendo del usuario logeado se mostrata informacion mas detallada de los proyecto, es decir, si el usuario es un administrador podra visualisar informacion mas detallada de los proyectos, y si el usuario no lo es, visualizara una vercion muy especifica de los datos.\\
 \item
 El sistema podra generar estadisticas, a partir de los datos ya almacenados en el sistema. Dichas estadisticas se calcularan, tomando en cuenta los vs mas significativos para la oficina de responsabilidad social.\\ 
@@ -423,18 +416,66 @@ Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Gestion de Proyectos. 
+Nombre del Caso de uso: Busqueda de proyectos. 
 \item
-Descripci\'on: El sistema otorgara opciones a el administrador para el manejo de los proyectos como eliminaci\'on, aceptaci\'on, modificaci\'on.
+Descripci\'on: El sistema tendra opci\'on de busqueda, que mostrara los datos buscados dependiendo de el usuario que realize dicha busqueda.
 \item
-Involucrados: Administrador
+Involucrados: Administrador, Usuario.
 \item
-Precondiciones: 
+Precondiciones:
 \begin{itemize}
 \item
 El usuario debe haberse logeado.
+\end{itemize}
 \item
-Debe haber proyectos en el sistema
+Excepciones: Si el usuario no es administrador, visualizara solo los datos basicos de el proyecto buscado.
+\item
+Funciones Relacionadas: Logeo.
+\item
+Documentos Relacionados: 
+\item
+Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
+\item
+Fecha: 17/10/2012.
+\item
+Acciones - Administrador: 
+\end{itemize}
+\begin{tabular}{|l|l|}
+\hline
+\makebox[3.75cm][c]{\textbf{Administrador}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
+\hline
+Busca Proyecto&\\
+\hline
+& Muestra lista de proyectos\\
+& asociada a la busqueda\\
+\hline
+Selecciona proyecto&\\
+\hline
+&Muestra informaci\'on\\
+\hline
+\end{tabular}
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\item
+Caso de Uso No 6.
+\begin{itemize}
+\item
+Software: Aplicaci\'on Java
+\item
+Version: 1.0
+\item
+Nombre del Caso de uso: Generaci\'on de estadisticas. 
+\item
+Descripci\'on: El sistema generara estadisticas que podra seleccionar de una lista de opciones.
+\item
+Involucrados: Administrador.
+\item
+Precondiciones:
+\begin{itemize}
+\item
+El usuario debe haberse logeado.
 \end{itemize}
 \item
 Excepciones: 
@@ -447,23 +488,71 @@ Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
 \item
 Fecha: 17/10/2012.
 \item
-Acciones: 
+Acciones - Administrador: 
 \end{itemize}
 \begin{tabular}{|l|l|}
 \hline
 \makebox[3.75cm][c]{\textbf{Administrador}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
 \hline
-Selecciona Proyecto&\\
+Entra en el menu de &\\
+estadisticas&\\
 \hline
-& Muestra Opciones de \\
-& gestion del proyecto\\
+& Muestra opciones de \\
+&estadisticas\\
 \hline
 Selecciona opcion&\\
 \hline
-&Ejecuta opcion\\
+&Genera y muestra\\
+&la estadistica \\
+&seleccionada\\
 \hline
-&Informa si la tarea a sido\\&
- realizada correctamente\\
+\end{tabular}
+\begin{tabbing}
+\hspace*{1cm} 
+\end{tabbing}
+
+\item
+Caso de Uso No 7.
+\begin{itemize}
+\item
+Software: Aplicaci\'on Java
+\item
+Version: 1.0
+\item
+Nombre del Caso de uso: Alerta de proyectos. 
+\item
+Descripci\'on: El sistema generara una alerta a el administrador, coda ves que un proyecto enviado a el sistema aya pasado la prevalidaci\'on.
+\item
+Involucrados: Administrador - Usuario.
+\item
+Precondiciones:
+\begin{itemize}
+\item
+Un proyecto enviado que paso el primer filtro.
+\end{itemize}
+\item
+Excepciones: 
+\item
+Funciones Relacionadas:
+\item
+Documentos Relacionados: 
+\item
+Realizado por: Luis Osorio, Alejandro Cardona, Diego Lozada.
+\item
+Fecha: 17/10/2012.
+\item
+Acciones - Administrador: 
+\end{itemize}
+\begin{tabular}{|l|l|}
+\hline
+\makebox[3.75cm][c]{\textbf{Usuario}} &\makebox[3.75cm][c]{\textbf{Sistema}}\\
+\hline
+Envia proyecto&\\
+\hline
+& Se hace la prevalidaci\'on\\
+\hline
+& Envia alerta a el\\
+& administrador\\
 \hline
 \end{tabular}
 \begin{tabbing}
