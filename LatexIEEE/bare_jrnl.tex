@@ -5,6 +5,8 @@
 
 \usepackage{dcolumn}
 \usepackage{colortbl}
+\usepackage{graphicx}
+\usepackage{rotating}
 
 \begin{document}
 %
@@ -70,6 +72,24 @@ El sistema quedara dise\~nado en Java y podra realizar los siguentes procesos:
 \item Generar estadisticas.
 \item Generar Datos.
 \end{enumerate}
+
+\section{\textbf{Descripci\'on general}}
+
+El sistema será un producto diseñado para trabajar en entorno web, lo que permitirá su utilización de forma remota, además trabajará de manera independiente por lo tanto no interactuará con otros sistemas.\\\\
+El sistema permitir\'a realizar las siguientes funciones:\\
+\begin{itemize}
+\item
+\textbf{Administraci\'on de proyectos:} El administrador del sistema podr\'a gestionar los proyectos (agregar, modificar, eliminar, buscar, aceptar).
+\item
+\textbf{Prevalidaci\'on de proyectos:} El sistema hara una prevalidaci\'on de los proyectos recividos y enviara una alerta a el administrador.
+\item
+\textbf{Generaci\'on de estadisticas:} El sistema podra generar estadisticas a partir de los proyectos almacenados en la base de datos.
+\item
+\textbf{Envio de Proyectos:} El sistema permitira el envio de proyectos, por parte de el administrador y de usuarios externos previamente registrados.
+\item
+\textbf{Busqueda de proyectos:} El sistema podra tener campo de busqueda, en el que dependiendo de el actor, generara la busqueda.
+
+\end{itemize}
 
 \section{\textbf{Personal Involucrado}}
 
@@ -170,6 +190,14 @@ Rol & Cliente\\
 
 \section{\textbf{Tecnologia}}
 Info Tecnologia
+
+\section{\textbf{Arquitectura del sistema}}
+
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=3cm,height=4cm]{Diagrama4.png}}}
+\end{center}
+
+
 \section{\textbf{Requerimientos}}
 
 \begin{enumerate}
@@ -204,14 +232,14 @@ un nuevo proyecto enviado por el sistema.
 \begin{enumerate}
 
 \item
-Caso de Uso No 1.
+Requerimiento No 1.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Logeo
+Nombre del Requerimiento: Logeo
 \item
 Descripci\'on: El sistema permitira el logeo de los usuarios para dar privilegios de administrador o de usuario normal.
 \item
@@ -255,14 +283,14 @@ Ingresa los datos&\\
 \end{tabbing}
 
 \item
-Caso de Uso No 2.
+Requerimiento No 2.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java.
 \item
 Version: 1.0.
 \item
-Nombre del Caso de uso: Envio de Proyecto.
+Nombre del Requerimiento: Envio de Proyecto.
 \item
 Descripci\'on: El sistema permitira el envio de proyectos al sistema.
 \item
@@ -307,14 +335,14 @@ Envia el proyecto& \\
 \end{tabbing}
 
 \item
-Caso de Uso No 3.
+Requerimiento No 3.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Validaci\'on 
+Nombre del Requerimiento: Validaci\'on 
 \item
 Descripci\'on: El sistema validara los proyectos enviados a el sistema, cejecutando la prevalidacion, para continuar el proceso de aprobaci\'on por el administrador o de rechazo, segun el caso.
 \item
@@ -354,14 +382,14 @@ Envia Formulario&\\
 \end{tabbing}
 
 \item
-Caso de Uso No 4.
+Requerimiento No 4.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Gestion de Proyectos. 
+Nombre del Requerimiento:Gestion de Proyectos. 
 \item
 Descripci\'on: El sistema otorgara opciones a el administrador para el manejo de los proyectos como eliminaci\'on, aceptaci\'on, modificaci\'on.
 \item
@@ -409,14 +437,14 @@ Selecciona opcion&\\
 \end{tabbing}
 
 \item
-Caso de Uso No 5.
+Requerimiento No 5.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Busqueda de proyectos. 
+Nombre del Requerimiento:Busqueda de proyectos. 
 \item
 Descripci\'on: El sistema tendra opci\'on de busqueda, que mostrara los datos buscados dependiendo de el usuario que realize dicha busqueda.
 \item
@@ -459,14 +487,14 @@ Selecciona proyecto&\\
 \end{tabbing}
 
 \item
-Caso de Uso No 6.
+Requerimiento No 6.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Generaci\'on de estadisticas. 
+Nombre del Requerimiento:Generaci\'on de estadisticas. 
 \item
 Descripci\'on: El sistema generara estadisticas que podra seleccionar de una lista de opciones.
 \item
@@ -512,14 +540,14 @@ Selecciona opcion&\\
 \end{tabbing}
 
 \item
-Caso de Uso No 7.
+Requerimiento No 7.
 \begin{itemize}
 \item
 Software: Aplicaci\'on Java
 \item
 Version: 1.0
 \item
-Nombre del Caso de uso: Alerta de proyectos. 
+Nombre del Requerimiento:Alerta de proyectos. 
 \item
 Descripci\'on: El sistema generara una alerta a el administrador, coda ves que un proyecto enviado a el sistema aya pasado la prevalidaci\'on.
 \item
@@ -553,13 +581,52 @@ Envia proyecto&\\
 \hline
 & Envia alerta a el\\
 & administrador\\
+
 \hline
 \end{tabular}
 \begin{tabbing}
 \hspace*{1cm} 
 \end{tabbing}
 
+\end{enumerate}
 
+\section{\textbf{Casos de Uso}}
+En esta secci\'on se explicaran, los diferentes ecenarios en los que los usuarios interactuaran con el sistema, y se especificara cada caso de uso usado en el ecenario.\\\\
+Actores:
+\begin{itemize}
+\item  
+Administrador.
+\item
+Usuario Externo.
+\end{itemize}
+
+Ecenarios:
+\begin{itemize}
+\item  
+Administrativos.
+\item
+Busqueda.
+\item
+Validaciones.\\\\
+\end{itemize}
+
+Diagramas de Casos de uso:
+\begin{enumerate}
+\item 
+ Caso de uso numero 1:\\
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=6cm,height=4cm]{Diagrama1.png}}}
+\end{center}
+\item 
+ Caso de uso numero 2:\\
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=6cm,height=4cm]{Diagrama2.png}}}
+\end{center}
+\item 
+ Caso de uso numero 3:\\
+\begin{center}
+\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=6cm,height=4cm]{Diagrama3.png}}}
+\end{center}
 \end{enumerate}
 
 \begin{thebibliography}{1}
