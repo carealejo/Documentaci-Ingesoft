@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="31cm" height="41cm" viewBox="-10 38 618 813" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="197" y="87" width="409.863" height="762.584"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="197" y="87" width="409.863" height="762.584"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="197" y="65" width="275.374" height="22"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="197" y="65" width="275.374" height="22"/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="129.225" cy="57.5447" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="129.225" cy="57.5447" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="105.225" y1="69.5447" x2="153.225" y2="69.5447"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="129.225" y1="63.5447" x2="129.225" y2="93.5447"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="129.225" y1="93.5447" x2="105.225" y2="119.545"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="129.225" y1="93.5447" x2="153.225" y2="119.545"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="129.225" y="143.445">
+      <tspan x="129.225" y="143.445">USUARIO</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="553.822" y1="121.599" x2="547.458" y2="818.665"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="414.957" y1="124.448" x2="413.079" y2="828.178"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 10; stroke: #000000" x1="266.326" y1="127.412" x2="262.849" y2="820.423"/>
+  <g>
+    <rect style="fill: #ffffff" x="259.834" y="151.086" width="10" height="627.293"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="259.834" y="151.086" width="10" height="627.293"/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="234.111" y="113.927">
+    <tspan x="234.111" y="113.927">INTERFAZ</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="391.482" y="116.715">
+    <tspan x="391.482" y="116.715">LOGICA</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="462.292" y="-147.663">
+    <tspan x="462.292" y="-147.663"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="544.401" y="115.093">
+    <tspan x="544.401" y="115.093">BD</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="230.293" y="80.3362">
+    <tspan x="230.293" y="80.3362">CREACION DE PROYECTO USUARIO</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="145.453" y1="265.083" x2="249.198" y2="265.083"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="241.434,270.083 251.434,265.083 241.434,260.083 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="173.993" y="260.326">
+    <tspan x="173.993" y="260.326">LOGEO</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="143.979" y1="337.602" x2="254.313" y2="337.038"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="151.717,332.562 141.743,337.613 151.768,342.562 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="161.555" y="329.903">
+    <tspan x="161.555" y="329.903">OPC IONES</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="127.069" y="169.163" width="10" height="626.874"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="127.069" y="169.163" width="10" height="626.874"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="287.611" y1="279.431" x2="391.356" y2="279.431"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="383.592,284.431 393.592,279.431 383.592,274.431 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="408.91" y="270.245" width="10" height="59.0547"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="408.91" y="270.245" width="10" height="59.0547"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="143.438" y1="202.033" x2="253.772" y2="201.469"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="151.176,196.993 141.202,202.044 151.227,206.993 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="161.015" y="194.334">
+    <tspan x="161.015" y="194.334">OPC LOGEO</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="545.668" y="275.002" width="10.0596" height="37.6491"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="545.668" y="275.002" width="10.0596" height="37.6491"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="423.18" y1="284.188" x2="526.925" y2="284.188"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="519.161,289.188 529.161,284.188 519.161,279.188 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="430.036" y1="305.638" x2="540.37" y2="305.074"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.774,300.598 427.799,305.65 437.825,310.598 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="290.899" y1="315.152" x2="401.233" y2="314.588"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="298.637,310.112 288.663,315.163 298.688,320.112 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-91.1986" y="46.2699">
+    <tspan x="-91.1986" y="46.2699"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="300.049" y="272.218">
+    <tspan x="300.049" y="272.218">VALIDACION</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="428.483" y="276.975">
+    <tspan x="428.483" y="276.975">CONSULTA PASS</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="-111.415" y="111.676">
+    <tspan x="-111.415" y="111.676"></tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="429.672" y="301.948">
+    <tspan x="429.672" y="301.948">RETORNA PASS</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="298.86" y="309.084">
+    <tspan x="298.86" y="309.084">VAL CORRECTA</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="144.195" y1="404.929" x2="247.94" y2="404.929"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="240.176,409.929 250.176,404.929 240.176,399.929 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="162.033" y="400.172">
+    <tspan x="162.033" y="400.172">NEW PROY</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="145.104" y1="459.75" x2="255.439" y2="459.186"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="152.843,454.71 142.868,459.761 152.894,464.71 "/>
+  </g>
+  <text font-size="12.3499" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="136.519" y="447.889">
+    <tspan x="136.519" y="447.889">CAMPOS NEW PROY</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="143.005" y1="501.231" x2="246.751" y2="501.231"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="238.987,506.231 248.987,501.231 238.987,496.231 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="150.141" y="495.88">
+    <tspan x="150.141" y="495.88">ENVIO DATOS</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="409.386" y="485.222" width="10" height="163.29"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="409.386" y="485.222" width="10" height="163.29"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="287.493" y1="523.297" x2="391.238" y2="523.297"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="383.474,528.297 393.474,523.297 383.474,518.297 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="318.412" y="518.54">
+    <tspan x="318.412" y="518.54">DATOS</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="422.31" y1="523.456" x2="457.986" y2="523.456"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="459.127" y1="547.43" x2="459.127" y2="524.24"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="427.377" y1="544.862" x2="458.581" y2="544.862"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.141,539.862 425.141,544.862 435.141,549.862 "/>
+  </g>
+  <text font-size="10.5437" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="422.856" y="517.7">
+    <tspan x="422.856" y="517.7">FILTRO VALIDACION</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="428.435" y1="581.627" x2="532.18" y2="581.627"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="524.416,586.627 534.416,581.627 524.416,576.627 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="428.435" y="572.708">
+    <tspan x="428.435" y="572.708">GUARDAR DATOS</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="545.571" y="570.132" width="10.0596" height="56.3788"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="545.571" y="570.132" width="10.0596" height="56.3788"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="429.939" y1="619.209" x2="540.274" y2="618.645"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.677,614.169 427.703,619.22 437.728,624.169 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="437.9" y="613.141">
+    <tspan x="437.9" y="613.141">GUARDADOS</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="288.246" y1="636.155" x2="398.581" y2="635.591"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="295.984,631.115 286.01,636.166 296.035,641.115 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="277.774" y="623.546">
+    <tspan x="277.774" y="623.546">ENVIO ALERTA</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="41.0974" y="634.619" width="10" height="161.361"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="41.0974" y="634.619" width="10" height="161.361"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="66.6229" y1="670.084" x2="253.067" y2="669.847"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="74.3805,665.074 64.3868,670.087 74.3931,675.074 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="155.683" y="664.254">
+    <tspan x="155.683" y="664.254">ALERTA</tspan>
+  </text>
+  <g>
+    <ellipse style="fill: #ffffff" cx="45.1473" cy="538.726" rx="6" ry="6"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="45.1473" cy="538.726" rx="6" ry="6"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="21.1473" y1="550.726" x2="69.1473" y2="550.726"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.1473" y1="544.726" x2="45.1473" y2="574.726"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.1473" y1="574.726" x2="21.1473" y2="600.726"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="45.1473" y1="574.726" x2="69.1473" y2="600.726"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="45.1473" y="624.626">
+      <tspan x="45.1473" y="624.626">ADMINISTRADOR</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="68.8569" y1="717.573" x2="247.368" y2="716.368"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="239.638,721.42 249.604,716.353 239.571,711.42 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="151.374" y="712.816">
+    <tspan x="151.374" y="712.816">APROBADO</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="409.681" y="710.398" width="10" height="63.0009"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="409.681" y="710.398" width="10" height="63.0009"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="281.679" y1="727.597" x2="385.424" y2="727.597"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="377.661,732.597 387.661,727.597 377.661,722.597 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="298.719" y="719.756">
+    <tspan x="298.719" y="719.756">GUARDADO</tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="543.852" y="733.531" width="10.0596" height="56.3788"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="543.852" y="733.531" width="10.0596" height="56.3788"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="423.561" y1="747.645" x2="527.306" y2="747.645"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="519.542,752.645 529.542,747.645 519.542,742.645 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="426.721" y="724.382">
+    <tspan x="426.721" y="724.382">CAMBIAR ESTADO</tspan>
+    <tspan x="426.721" y="740.382">APROBADO</tspan>
+  </text>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 6; stroke: #000000" x1="144.299" y1="772.42" x2="254.633" y2="771.857"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="152.037,767.381 142.063,772.432 152.088,777.381 "/>
+  </g>
+  <text font-size="12.3499" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="148.051" y="757.475">
+    <tspan x="148.051" y="757.475">PROY APROBADO</tspan>
+  </text>
+</svg>

@@ -691,19 +691,6 @@ Se agrega imagen completa para mejor visualisaci\'on
 
 \section{Diagramas de secuencia}
 
-\begin{itemize}
-\item
-\textbf{Secuencia de creaci\'on de usuario}\\
-\begin{center}
-\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=15.5cm,height=16cm]{DSecuencia1.pdf}}}
-\end{center}
-\item
-\textbf{Secuencia de creaci\'on de proyecto por el usuario}\\
-\begin{center}
-\rotatebox{0}{\scalebox{1}[1]{\includegraphics[width=15.5cm,height=16cm]{DSecuencia2.pdf}}}
-\end{center}
-\end{itemize}
-
 \bibliographystyle{abbrv}
 \bibliography{main}
 
