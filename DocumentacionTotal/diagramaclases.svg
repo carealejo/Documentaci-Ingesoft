@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="70cm" height="56cm" viewBox="-1393 209 1393 1103" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="-902.052" y="308.816" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-902.052" y="308.816" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-700.702" y="327.816">Proyectos PazyBien</text>
+    <rect style="fill: #ffffff" x="-902.052" y="336.816" width="402.7" height="164"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-902.052" y="336.816" width="402.7" height="164"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="350.816">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="366.816">-descripcion: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="382.816">-fechaINI: date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="398.816">-fechaFIN: date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="414.816">-fundacion: fundaciones</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="430.816">-grupoAcademico: academicos</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="446.816">-actividad: actividades</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="462.816">-lider: lideres</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="478.816">-usuario: user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="494.816">+recursos: recurso</text>
+    <rect style="fill: #ffffff" x="-902.052" y="500.816" width="402.7" height="260"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-902.052" y="500.816" width="402.7" height="260"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="514.816">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="530.816">+setnombre(newnombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="546.816">+getdescripcion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="562.816">+setdescripcion(newdescripcion:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="578.816">+getfechaINI(): date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="594.816">+setfechaINI(newfecha:date): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="610.816">+getfechaFIN(): date</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="626.816">+setfechaFIN(newfecha:date): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="642.816">+getfundacion(): fundaciones</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="658.816">+setfundaciones(fundacion:fundaciones): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="674.816">+getgrupoacademico(): academicos</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="690.816">+setgrupoacademico(grupoacademico:academicos): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="706.816">+getactividad(): actividades</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="722.816">+setactividad(actividad:actividades): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="738.816">+getrecursos(): recurso</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-899.052" y="754.816">+setrecursos(recurso:recurso): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-389.152" y="635.854" width="294.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-389.152" y="635.854" width="294.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-241.702" y="654.854">fundaciones</text>
+    <rect style="fill: #ffffff" x="-389.152" y="663.854" width="294.9" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-389.152" y="663.854" width="294.9" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="677.854">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="693.854">-ciudad: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="709.854">-direccion: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="725.854">-telefono: int</text>
+    <rect style="fill: #ffffff" x="-389.152" y="731.854" width="294.9" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-389.152" y="731.854" width="294.9" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="745.854">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="761.854">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="777.854">+getciudad(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="793.854">+setciudad(ciudad:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="809.854">+getdireccion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="825.854">+setdireccion(direccion:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="841.854">+gettelefono(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-386.152" y="857.854">+settelefono(telefono:int): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1039.56" y="987.12" width="371.9" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1039.56" y="987.12" width="371.9" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-853.608" y="1006.12">academicos</text>
+    <rect style="fill: #ffffff" x="-1039.56" y="1015.12" width="371.9" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1039.56" y="1015.12" width="371.9" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1029.12">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1045.12">-descripcion: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1061.12">-facultad: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1077.12">-carrera: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1093.12">-integrantes: list&lt;string&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1109.12">-directorgrupo: string</text>
+    <rect style="fill: #ffffff" x="-1039.56" y="1115.12" width="371.9" height="196"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1039.56" y="1115.12" width="371.9" height="196"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1129.12">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1145.12">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1161.12">+getdescripcion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1177.12">+setdescripcion(descripcion:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1193.12">+getfacultad(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1209.12">+setfacultad(facultad:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1225.12">+getcarrera(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1241.12">+setcarrera(carrera:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1257.12">+getintegrantes(): list&lt;string&gt;</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1273.12">+setintegrantes(integrantes:list&lt;string&gt;): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1289.12">+getdirectorgrupo(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1036.56" y="1305.12">+setdirectorgrupo(director:string): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1391.71" y="823.524" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1391.71" y="823.524" width="325.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1228.86" y="842.524">activiades</text>
+    <rect style="fill: #ffffff" x="-1391.71" y="851.524" width="325.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1391.71" y="851.524" width="325.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="865.524">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="881.524">-descripcion: string</text>
+    <rect style="fill: #ffffff" x="-1391.71" y="887.524" width="325.7" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1391.71" y="887.524" width="325.7" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="901.524">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="917.524">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="933.524">+getdescripcion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1388.71" y="949.524">+setdescripcion(descripcion:string): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1378.98" y="420.474" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1378.98" y="420.474" width="325.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1216.13" y="439.474">lideres</text>
+    <rect style="fill: #ffffff" x="-1378.98" y="448.474" width="325.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1378.98" y="448.474" width="325.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="462.474">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="478.474">-telefono: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="494.474">-descripcion</text>
+    <rect style="fill: #ffffff" x="-1378.98" y="500.474" width="325.7" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1378.98" y="500.474" width="325.7" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="514.474">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="530.474">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="546.474">+gettelefono(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="562.474">+settelefono(telefono:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="578.474">+getdescripcion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1375.98" y="594.474">+setdescripcion(descripcion:string): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-927.224,526.816 -984.666,526.816 -984.666,510.474 -1053.28,510.474 "/>
+    <polygon style="fill: #000000" points="-902.052,526.816 -916.052,531.616 -930.052,526.816 -916.052,522.016 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-902.052,526.816 -916.052,531.616 -930.052,526.816 -916.052,522.016 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-982.666" y="515.645"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-934.052" y="523.816">*</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1049.28" y="507.474">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-927.224,686.816 -991.03,686.816 -991.03,897.524 -1066.01,897.524 "/>
+    <polygon style="fill: #000000" points="-902.052,686.816 -916.052,691.616 -930.052,686.816 -916.052,682.016 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-902.052,686.816 -916.052,691.616 -930.052,686.816 -916.052,682.016 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-989.03" y="789.17"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-934.052" y="683.816">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1062.01" y="894.524">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-474.18,542.816 -437.252,542.816 -437.252,741.854 -389.152,741.854 "/>
+    <polygon style="fill: #000000" points="-499.352,542.816 -485.352,538.016 -471.352,542.816 -485.352,547.616 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-499.352,542.816 -485.352,538.016 -471.352,542.816 -485.352,547.616 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-435.252" y="639.335"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-467.352" y="539.816">*</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-393.152" y="738.854">*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-927.224,734.816 -937.052,734.816 -937.052,860.468 -853.608,860.468 -853.608,987.12 "/>
+    <polygon style="fill: #000000" points="-902.052,734.816 -916.052,739.616 -930.052,734.816 -916.052,730.016 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-902.052,734.816 -916.052,739.616 -930.052,734.816 -916.052,730.016 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-895.33" y="857.468"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-934.052" y="731.816">*</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-849.608" y="983.12">*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-403.56" y="210.872" width="402.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-403.56" y="210.872" width="402.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-202.21" y="229.872">user</text>
+    <rect style="fill: #ffffff" x="-403.56" y="238.872" width="402.7" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-403.56" y="238.872" width="402.7" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="252.872">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="268.872">-tipo: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="284.872">-grupoacademico: academicos</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="300.872">-fundacion: fundaciones</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="316.872">-clave: claves</text>
+    <rect style="fill: #ffffff" x="-403.56" y="322.872" width="402.7" height="148"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-403.56" y="322.872" width="402.7" height="148"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="336.872">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="352.872">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="368.872">+gettipo(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="384.872">+settipo(tipo:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="400.872">+getgrupoacademico(): academicos</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="416.872">+setgrupoacademico(grupoacademico:academicos): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="432.872">+getfundacion(): fundaciones</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="448.872">+setfundaciones(fundacion:fundaciones): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-400.56" y="464.872">+setclave(clave:string): void</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-1315.95" y="223.226" width="225.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1315.95" y="223.226" width="225.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-1203.15" y="242.226">claves</text>
+    <rect style="fill: #ffffff" x="-1315.95" y="251.226" width="225.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1315.95" y="251.226" width="225.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1312.95" y="265.226">-clave: cifrado</text>
+    <rect style="fill: #ffffff" x="-1315.95" y="271.226" width="225.6" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-1315.95" y="271.226" width="225.6" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1312.95" y="285.226">+revclave(clave:string): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1312.95" y="301.226">+setclave(string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1312.95" y="317.226">-codclave(): codificado</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-474.18,426.816 -444.456,426.816 -444.456,332.872 -403.56,332.872 "/>
+    <polygon style="fill: #000000" points="-499.352,426.816 -485.352,422.016 -471.352,426.816 -485.352,431.616 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-499.352,426.816 -485.352,422.016 -471.352,426.816 -485.352,431.616 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-442.456" y="376.844"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-467.352" y="423.816">*</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-407.56" y="329.872">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-428.732,280.872 -753.956,280.872 -753.956,281.226 -1090.35,281.226 "/>
+    <polygon style="fill: #000000" points="-403.56,280.872 -417.56,285.672 -431.56,280.872 -417.56,276.072 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-403.56,280.872 -417.56,285.672 -431.56,280.872 -417.56,276.072 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-751.956" y="278.049"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="-435.56" y="277.872">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-1086.35" y="278.226">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="-615.41" y="985.91" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-615.41" y="985.91" width="325.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="-452.56" y="1004.91">recurso</text>
+    <rect style="fill: #ffffff" x="-615.41" y="1013.91" width="325.7" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-615.41" y="1013.91" width="325.7" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1027.91">-nombre: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1043.91">-tipo: string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1059.91">-valorrecurso: int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1075.91">-descripcion: string</text>
+    <rect style="fill: #ffffff" x="-615.41" y="1081.91" width="325.7" height="132"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="-615.41" y="1081.91" width="325.7" height="132"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1095.91">+getnombre(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1111.91">+setnombre(nombre:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1127.91">+gettipo(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1143.91">+settipo(tipo:string): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1159.91">+getvalorrecurso(): int</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1175.91">+setvalorrecurso(valor:int): void</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1191.91">+getdescripcion(): string</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-612.41" y="1207.91">+setdescripcion(descripcion:string): void</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-700.702,785.988 -700.702,880.363 -452.56,880.363 -452.56,985.91 "/>
+    <polygon style="fill: #000000" points="-700.702,760.816 -695.902,774.816 -700.702,788.816 -705.502,774.816 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="-700.702,760.816 -695.902,774.816 -700.702,788.816 -705.502,774.816 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="-576.631" y="877.363"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-689.702" y="772.816">1</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="-448.56" y="981.91">*</text>
+  </g>
+</svg>
